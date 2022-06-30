@@ -1,0 +1,19 @@
+{
+    "name": "sam.cheng/laravel-logger-notify",
+    "description": "customized logger handler for line notify",
+    "autoload": {
+        "psr-4": {
+            "SaC\\LoggerLineNotify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sam.cheng"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.7",
+        "illuminate/support": "^9.19",
+        "ext-curl": "*"
+    }
+}
