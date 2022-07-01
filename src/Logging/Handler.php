@@ -22,7 +22,7 @@ class Handler extends AbstractProcessingHandler
 
         curl_setopt_array($curl, array(
             CURLOPT_URL => 'https://notify-api.line.me/api/notify',
-//            CURLOPT_RETURNTRANSFER => true,
+            // CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
             CURLOPT_TIMEOUT => 0,

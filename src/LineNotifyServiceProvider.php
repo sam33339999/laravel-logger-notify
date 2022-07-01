@@ -12,7 +12,7 @@ class LineNotifyServiceProvider extends ServiceProvider
      * for publish to config => `php artisan vendor:publish ...`
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         $source = realpath($raw = __DIR__.'/../config/line.php') ?: $raw;
         $this->publishes([

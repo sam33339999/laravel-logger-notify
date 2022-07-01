@@ -40,7 +40,7 @@ class Formatter extends NormalizerFormatter
      * @param array $record
      * @return array
      */
-    protected function getDocument(array $record)
+    protected function getDocument(array $record): array
     {
         $fills = $record['extra'];
         $fills['level'] = str()->lower($record['level_name']);
