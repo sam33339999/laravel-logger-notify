@@ -13,7 +13,7 @@
     ],
     "require": {
         "monolog/monolog": "^1.4.4",
-        "illuminate/support": "^9.*.*",
+        "illuminate/support": "~9.19",
         "ext-curl": "*"
     }
 }
